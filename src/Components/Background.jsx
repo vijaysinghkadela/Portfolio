@@ -23,7 +23,7 @@ const Background = () => {
         style={{
           rotateX,
           rotateY,
-          backgroundImage: `url(${"../assets/Images/background-Image.jpg"})`,
+          backgroundImage: `url(${"../../public/Images/background-Image.jpg"})`,
         }}
       />
     </div>
