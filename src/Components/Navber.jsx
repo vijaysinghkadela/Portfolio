@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import logo from "../../public/Images/V-logo.png"
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -11,7 +11,7 @@ const Navbar = () => {
       <div className="container mx-auto flex items-center justify-between">
         {/* Logo */}
         <div className="flex items-center">
-          <img src="../../public/Images/V-logo.png" alt="Logo" className="h-8 w-8 mr-2" />
+          <img src={logo} alt="Logo" className="h-8 w-8 mr-2" />
           <span className="text-white text-lg font-semibold">MyLogo</span>
         </div>
 
