@@ -1,5 +1,6 @@
 import React from "react";
 import mainImg from "../../public/Images/main_img.png"
+
 const Home = () => {
   return (
     <div className="bg-white min-h-screen flex items-center">
