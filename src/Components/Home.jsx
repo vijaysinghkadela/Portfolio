@@ -6,7 +6,7 @@ const Home = () => {
       <div className="container mx-auto px-4 lg:px-20 flex flex-col lg:flex-row items-center justify-center">
         <div className="lg:w-1/2 w-full flex justify-center lg:order-2">
           <img
-            src="../../public/Images/main_img.png" 
+            src="./images/background-Image.jgp" 
             alt="Profile"
             className="rounded-full w-48 h-48 lg:w-60 lg:h-60 object-cover"
           />
