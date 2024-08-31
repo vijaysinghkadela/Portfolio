@@ -12,11 +12,11 @@ function App() {
         <Navber />
         {/* <Background /> */}
         <Home />
-        {/* <AboutMe/> */}
+
         <div className="App bg-white min-h-screen flex items-center justify-center">
           <AboutMe />
         </div>
-        <ServiceSection/>
+        <ServiceSection />
       </div>
     </>
   );
