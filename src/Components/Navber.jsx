@@ -43,7 +43,7 @@ const Navbar = () => {
         <div
           className={`${
             isOpen ? "block" : "hidden"
-          } lg:flex lg:items-center lg:space-x-4 `}
+          } lg:flex lg:items-center lg:space-x-4 sm:flex sm:justify-center `}
         >
           {navItems.map((item) => (
             <a

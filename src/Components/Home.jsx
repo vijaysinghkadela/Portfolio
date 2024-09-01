@@ -3,7 +3,7 @@ import mainImg from "../../public/Images/main_img.png"
 
 const Home = () => {
   return (
-    <div className=" min-h-screen flex items-center">
+    <div className=" h-screen flex items-center">
       <div className="container mx-auto px-4 lg:px-20 flex flex-col lg:flex-row items-center justify-center">
         <div className="lg:w-1/2 w-full flex justify-center lg:order-2">
           <img

@@ -13,7 +13,7 @@ function App() {
     <>
       <div>
         {/* <Background /> */}
-        <div className="min-h-screen bg-white dark:bg-gray-900 text-black dark:text-white">
+        <div className=" bg-white dark:bg-gray-900 text-black dark:text-white">
           <Navber />
           <Home />
           <div className="App flex items-center justify-center">
