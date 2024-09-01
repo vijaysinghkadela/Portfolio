@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import logo from "../../public/Images/V-logo.png"
+import ThemeToggle from "./ThemeToggle";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -12,7 +13,7 @@ const Navbar = () => {
         {/* Logo */}
         <div className="flex items-center">
           <img src={logo} alt="Logo" className="h-8 w-8 mr-2" />
-          <span className="text-white text-lg font-semibold">MyLogo</span>
+
         </div>
 
         {/* Hamburger Menu for Mobile */}
@@ -42,18 +43,21 @@ const Navbar = () => {
         <div
           className={`${
             isOpen ? "block" : "hidden"
-          } lg:flex lg:items-center lg:space-x-4 lg:block`}
+          } lg:flex lg:items-center lg:space-x-4 `}
         >
           {navItems.map((item) => (
             <a
               key={item}
               href={`#${item.toLowerCase()}`}
-              className="block font-itim mt-4 lg:mt-0 text-black hover:text-orange-400 font-semibold "
+              className="block font-itim mt-4 lg:mt-0 text-black dark:text-white hover:text-orange-400 font-semibold "
             >
               {item}
             </a>
-          ))}
+          ))} <div className="">
+        <ThemeToggle />
+      </div>
         </div>
+       
       </div>
     </nav>
   );

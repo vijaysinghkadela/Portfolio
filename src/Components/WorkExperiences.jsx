@@ -49,15 +49,25 @@ function WorkExperiences() {
           Hire Me
         </button>
       </div>
-      <div className="mt-4 flex justify-center space-x-4">
+      <div className="mt-4 flex justify-center space-x-4 sm:w-screen sm:flex sm:justify-center sm:space-x-4 md:w-screen lg:w-screen lg:flex lg:justify-center lg:space-x-4 md:flex md:justify-center md:space-x-4 ">
         {/* Icons here */}
-        <div>Home</div>
-        <div>About Me</div>
-        <div>Services</div>
-        <div>Projects</div>
-        <div>Works</div>
+        <div className="bg-red-400 px-2 py-1 rounded-md text-white font-semibold hover:bg-red-500 hover:cursor-pointer">
+          Home
+        </div>
+        <div className="bg-red-400 px-2 py-1 rounded-md text-white font-semibold hover:bg-red-500 hover:cursor-pointer">
+          About Me
+        </div>
+        <div className="bg-red-400 px-2 py-1 rounded-md text-white font-semibold hover:bg-red-500 hover:cursor-pointer">
+          Services
+        </div>
+        <div className="bg-red-400 px-2 py-1 rounded-md text-white font-semibold hover:bg-red-500 hover:cursor-pointer">
+          Projects
+        </div>
+        <div className="bg-red-400 px-2 py-1 rounded-md text-white font-semibold hover:bg-red-500 hover:cursor-pointer">
+          Works
+        </div>
       </div>
-      <p className="mt-4 text-black text-sm flex justify-center">
+      <p className="mt-4 text-black dark:text-white text-sm flex justify-center">
         ©2024 Copyright by VijaySingh
       </p>
     </div>

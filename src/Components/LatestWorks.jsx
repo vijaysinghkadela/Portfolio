@@ -69,7 +69,7 @@ const LatestWorks = () => {
         {filteredProjects.map(project => (
           <div
             key={project.id}
-            className="bg-black text-white p-4 rounded-lg shadow-md"
+            className="bg-black dark:bg-white text-white dark:text-black p-4 rounded-lg shadow-md"
           >
             <img src={project.image} className='rounded-md' alt="" />
             <h3 className="text-xl font-bold mb-2 mt-2">{project.title}</h3>

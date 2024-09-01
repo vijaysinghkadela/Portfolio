@@ -41,7 +41,7 @@ const ServiceSection = () => {
             className={`w-full md:w-1/2 lg:w-1/4 p-6 ${service.bgColor} rounded-md shadow-md`}
           >
             <h3 className="text-xl font-bold mb-4">{service.title}</h3>
-            <p className="text-gray-700">{service.description}</p>
+            <p className="text-gray-700 ">{service.description}</p>
           </div>
         ))}
       </div>

@@ -6,21 +6,23 @@ import AboutMe from "./Components/AboutMe";
 import ServiceSection from "./Components/Services";
 import LatestWorks from "./Components/LatestWorks";
 import WorkExperiences from "./Components/WorkExperiences";
+import ThemeToggle from "./Components/ThemeToggle";
 
 function App() {
   return (
     <>
       <div>
-        <Navber />
         {/* <Background /> */}
-        <Home />
-
-        <div className="App bg-white  flex items-center justify-center">
-          <AboutMe />
+        <div className="min-h-screen bg-white dark:bg-gray-900 text-black dark:text-white">
+          <Navber />
+          <Home />
+          <div className="App flex items-center justify-center">
+            <AboutMe />
+          </div>
+          <ServiceSection />
+          <LatestWorks />
+          <WorkExperiences />
         </div>
-        <ServiceSection />
-        <LatestWorks />
-        <WorkExperiences />
       </div>
     </>
   );
