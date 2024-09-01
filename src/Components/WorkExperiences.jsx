@@ -51,19 +51,19 @@ function WorkExperiences() {
       </div>
       <div className="mt-4 flex justify-center space-x-4 sm:w-screen sm:flex sm:justify-center sm:space-x-4 md:w-screen lg:w-screen lg:flex lg:justify-center lg:space-x-4 md:flex md:justify-center md:space-x-4 ">
         {/* Icons here */}
-        <div className="bg-red-400 px-2 py-1 rounded-md text-white font-semibold hover:bg-red-500 hover:cursor-pointer">
+        <div className=" px-2 py-1 rounded-md text-white font-semibold hover:bg-red-500 hover:cursor-pointer">
           Home
         </div>
-        <div className="bg-red-400 px-2 py-1 rounded-md text-white font-semibold hover:bg-red-500 hover:cursor-pointer">
+        <div className=" px-2 py-1 rounded-md text-white font-semibold hover:bg-red-500 hover:cursor-pointer">
           About Me
         </div>
-        <div className="bg-red-400 px-2 py-1 rounded-md text-white font-semibold hover:bg-red-500 hover:cursor-pointer">
+        <div className=" px-2 py-1 rounded-md text-white font-semibold hover:bg-red-500 hover:cursor-pointer">
           Services
         </div>
-        <div className="bg-red-400 px-2 py-1 rounded-md text-white font-semibold hover:bg-red-500 hover:cursor-pointer">
+        <div className=" px-2 py-1 rounded-md text-white font-semibold hover:bg-red-500 hover:cursor-pointer">
           Projects
         </div>
-        <div className="bg-red-400 px-2 py-1 rounded-md text-white font-semibold hover:bg-red-500 hover:cursor-pointer">
+        <div className="px-2 py-1 rounded-md text-white font-semibold hover:bg-red-500 hover:cursor-pointer">
           Works
         </div>
       </div>
