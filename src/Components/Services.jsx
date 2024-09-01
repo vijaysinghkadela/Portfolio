@@ -29,18 +29,9 @@ const services = [
 
 const ServiceSection = () => {
   return (
-    // <div className="flex flex-col lg:flex-row justify-center items-center lg:space-x-4 space-y-4 lg:space-y-0 p-8">
-    //   {services.map((service, index) => (
-    //     <div
-    //       key={index}
-    //       className={`w-full lg:w-1/4 p-6 ${service.bgColor} rounded-md shadow-md`}
-    //     >
-    //       <h3 className="text-xl font-bold mb-4">{service.title}</h3>
-    //       <p className="text-gray-700">{service.description}</p>
-    //     </div>
-    //   ))}
+    
     <>
-      <div className="flex justify-center">
+      <div className="flex justify-center mt-10">
         <h1 className="text-3xl font-semibold">Services</h1>
       </div>
       <div className="flex flex-col md:flex-row md:flex-wrap lg:flex-nowrap justify-center items-center md:space-x-2 lg:space-x-4 space-y-4 md:space-y-2 lg:space-y-0 p-8">

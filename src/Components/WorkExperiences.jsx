@@ -1,10 +1,25 @@
-import React from 'react';
+import React from "react";
 
 function WorkExperiences() {
   const experiences = [
-    { id: 1, title: "Javascript / React JS", duration: "Oct 2023 - Jun 2024", color: "bg-orange-400" },
-    { id: 2, title: "Node JS / Express JS", duration: "July 2024 - Pengrent", color: "bg-purple-400" },
-    { id: 3, title: "MongoDB", duration: "July 2024 - Pengrent", color: "bg-green-400" },
+    {
+      id: 1,
+      title: "Javascript / React JS",
+      duration: "Oct 2023 - Jun 2024",
+      color: "bg-blue-400",
+    },
+    {
+      id: 2,
+      title: "Node JS / Express JS",
+      duration: "July 2024 - Pengrent",
+      color: "bg-purple-400",
+    },
+    {
+      id: 3,
+      title: "MongoDB",
+      duration: "July 2024 - Pengrent",
+      color: "bg-green-400",
+    },
   ];
 
   return (
@@ -28,19 +43,23 @@ function WorkExperiences() {
       </div>
 
       {/* Footer */}
-      <div className="bg-orange-500 text-center p-4 mt-8">
+      <div className="bg-orange-400 text-center p-4 mt-8">
         <p className="text-white text-lg">Have any Projects in mind?</p>
-        <button className="mt-4 px-4 py-2 bg-white text-black font-bold rounded">Hire Me</button>
-        <div className="mt-4 flex justify-center space-x-4">
-          {/* Icons here */}
-          <div>Home</div>
-          <div>About Me</div>
-          <div>Services</div>
-          <div>Projects</div>
-          <div>Works</div>
-        </div>
-        <p className="mt-4 text-white text-sm">©2024 Copyright by VijaySingh</p>
+        <button className="mt-4 px-4 py-2 bg-white text-black font-bold rounded">
+          Hire Me
+        </button>
       </div>
+      <div className="mt-4 flex justify-center space-x-4">
+        {/* Icons here */}
+        <div>Home</div>
+        <div>About Me</div>
+        <div>Services</div>
+        <div>Projects</div>
+        <div>Works</div>
+      </div>
+      <p className="mt-4 text-black text-sm flex justify-center">
+        ©2024 Copyright by VijaySingh
+      </p>
     </div>
   );
 }

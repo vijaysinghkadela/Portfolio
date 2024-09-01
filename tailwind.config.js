@@ -29,7 +29,12 @@ module.exports = {
   ],
   darkMode: "class",
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        itim: ["Itim", "sans-serif"],
+        caveat: ["Caveat", "sans-serif"],
+      },
+    },
   },
   plugins: [addVariablesForColors],
 };

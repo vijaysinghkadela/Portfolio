@@ -15,12 +15,12 @@ function App() {
         {/* <Background /> */}
         <Home />
 
-        <div className="App bg-white min-h-screen flex items-center justify-center">
+        <div className="App bg-white  flex items-center justify-center">
           <AboutMe />
         </div>
         <ServiceSection />
-        <LatestWorks/>
-        <WorkExperiences/>
+        <LatestWorks />
+        <WorkExperiences />
       </div>
     </>
   );
