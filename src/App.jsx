@@ -4,7 +4,7 @@ import Navber from "./Components/Navber";
 import Home from "./Components/Home";
 import AboutMe from "./Components/AboutMe";
 import ServiceSection from "./Components/Services";
-import LatestWorks from "./Components/LatestWorks";
+import Projects from "./Components/Projects";
 import WorkExperiences from "./Components/WorkExperiences";
 import ThemeToggle from "./Components/ThemeToggle";
 
@@ -20,7 +20,7 @@ function App() {
             <AboutMe />
           </div>
           <ServiceSection />
-          <LatestWorks />
+          <Projects />
           <WorkExperiences />
         </div>
       </div>

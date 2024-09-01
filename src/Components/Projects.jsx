@@ -30,7 +30,7 @@ const projects = [
   // Add more projects here
 ];
 
-const LatestWorks = () => {
+const Projects = () => {
   const [selectedCategory, setSelectedCategory] = useState("all");
 
   const filteredProjects =
@@ -40,7 +40,7 @@ const LatestWorks = () => {
 
   return (
     <div className="container mx-auto px-4 py-8">
-      <h2 className="text-2xl font-bold mb-4 text-center">Latest Works</h2>
+      <h2 className="text-2xl font-bold mb-4 text-center">Projects</h2>
       <div className="flex justify-center space-x-4 mb-6">
         <button
           className={`${
@@ -93,4 +93,4 @@ const LatestWorks = () => {
   );
 };
 
-export default LatestWorks;
+export default Projects;
