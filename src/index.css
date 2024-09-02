@@ -2,14 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  overflow-x: clip;
 }
 
 .caveat {
-    font-family: "Caveat", cursive;
- 
-  }
+  font-family: "Caveat", cursive;
+}

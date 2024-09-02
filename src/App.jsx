@@ -5,7 +5,7 @@ import Navber from "./Components/Navber";
 import Projects from "./Components/Projects";
 import ServiceSection from "./Components/Services";
 import WorkExperiences from "./Components/WorkExperiences";
-
+import "./style.css";
 function App() {
   return (
     <>
