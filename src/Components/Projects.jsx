@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import firstProjectImg from "../../public/Images/task-docs-mini-app.png";
 import secondProjectImg from "../../public/Images/ChessGameImg.png";
 import  BmiCalculater  from "../../public/Images/bmi-calculater.png";
+import ExpenseTracker from "../../public/Images/Expense-Tracker.png";
 const projects = [
   {
     id: 1,
@@ -14,6 +15,15 @@ const projects = [
   },
   {
     id: 2,
+    image: ExpenseTracker,
+    title: "Expense Tracker",
+    category: "frontend",
+    description:
+      "This is a frontend project Using React JS and Tailwind css, creating for money management and Tracking my all Expenses.",
+    link: "https://expense-tracker-flax-six.vercel.app/",
+  },
+  {
+    id: 3,
     image: BmiCalculater,
     title: "BMI Calculater",
     category: "frontend",
@@ -22,7 +32,7 @@ const projects = [
     link: "https://bmi-calculater-two.vercel.app/",
   },
   {
-    id: 3,
+    id: 4,
     image: secondProjectImg,
     title: "Chess.com",
     category: "backend",
@@ -31,7 +41,7 @@ const projects = [
     link: "https://chess-com-clone.onrender.com/",
   },
   {
-    id: 4,
+    id: 5,
     title: "Full-Stack Project",
     category: "fullstack",
     description: "This is a full-stack project description.",
