@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import firstProjectImg from "../../public/Images/task-docs-mini-app.png";
 import secondProjectImg from "../../public/Images/ChessGameImg.png";
+import  BmiCalculater  from "../../public/Images/bmi-calculater.png";
 const projects = [
   {
     id: 1,
@@ -13,6 +14,15 @@ const projects = [
   },
   {
     id: 2,
+    image: BmiCalculater,
+    title: "BMI Calculater",
+    category: "frontend",
+    description:
+      "This is a frontend project Using React JS and Tailwind css, Its Calculating BMI with Weight and Height.",
+    link: "https://bmi-calculater-two.vercel.app/",
+  },
+  {
+    id: 3,
     image: secondProjectImg,
     title: "Chess.com",
     category: "backend",
@@ -21,7 +31,7 @@ const projects = [
     link: "https://chess-com-clone.onrender.com/",
   },
   {
-    id: 3,
+    id: 4,
     title: "Full-Stack Project",
     category: "fullstack",
     description: "This is a full-stack project description.",
