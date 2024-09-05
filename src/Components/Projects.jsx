@@ -3,6 +3,7 @@ import firstProjectImg from "../../public/Images/task-docs-mini-app.png";
 import secondProjectImg from "../../public/Images/ChessGameImg.png";
 import  BmiCalculater  from "../../public/Images/bmi-calculater.png";
 import ExpenseTracker from "../../public/Images/Expense-Tracker.png";
+import  SonicRingRun  from "../../public/Images/Sonic Ring Run.png";
 const projects = [
   {
     id: 1,
@@ -42,11 +43,19 @@ const projects = [
   },
   {
     id: 5,
-    title: "Full-Stack Project",
-    category: "fullstack",
-    description: "This is a full-stack project description.",
-    link: "#",
+    image: SonicRingRun,
+    title: "Sonic Infinite Runner Game",
+    category: "games",
+    description: "The Sonic Infinite Runner Game is a high-speed, action-packed endless runner inspired by classic Sonic gameplay. In this game, players control Sonic as he races through various levels, avoiding obstacles, collecting rings, and defeating enemies while trying to achieve the highest possible score.",
+    link: "https://vercel.com/vijaysinghkadelas-projects/sonic-infinite-runner-game",
   },
+  // {
+  //   id: 6,
+  //   title: "Full-Stack Project",
+  //   category: "fullstack",
+  //   description: "This is a full-stack project description.",
+  //   link: "#",
+  // },
   // Add more projects here
 ];
 
@@ -87,6 +96,14 @@ const Projects = () => {
           onClick={() => setSelectedCategory("backend")}
         >
           Backend
+        </button>
+        <button
+          className={`${
+            selectedCategory === "games" ? "text-orange-500" : "text-gray-600"
+          } font-semibold`}
+          onClick={() => setSelectedCategory("games")}
+        >
+          Games
         </button>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
