@@ -47,7 +47,7 @@ const projects = [
     title: "Sonic Infinite Runner Game",
     category: "games",
     description: "The Sonic Infinite Runner Game is a high-speed, action-packed endless runner inspired by classic Sonic gameplay. In this game, players control Sonic as he races through various levels, avoiding obstacles, collecting rings, and defeating enemies while trying to achieve the highest possible score.",
-    link: "https://vercel.com/vijaysinghkadelas-projects/sonic-infinite-runner-game",
+    link: "https://sonic-infinite-runner-game.vercel.app/",
   },
   // {
   //   id: 6,
