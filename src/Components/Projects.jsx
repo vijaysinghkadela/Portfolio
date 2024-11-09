@@ -1,9 +1,11 @@
 import React, { useState } from "react";
-import firstProjectImg from "../../public/Images/task-docs-mini-app.png";
-import secondProjectImg from "../../public/Images/ChessGameImg.png";
-import  BmiCalculater  from "../../public/Images/bmi-calculater.png";
-import ExpenseTracker from "../../public/Images/Expense-Tracker.png";
-import  SonicRingRun  from "../../public/Images/Sonic Ring Run.png";
+import firstProjectImg from "/Images/task-docs-mini-app.png";
+import secondProjectImg from "/Images/ChessGameImg.png";
+import BmiCalculater from "/Images/bmi-calculater.png";
+import ExpenseTracker from "/Images/Expense-Tracker.png";
+import SonicRingRun from "/Images/sonic-ring-run.png"
+import TypingSpeedApp from "/Images/typing-speed-app.png";
+
 const projects = [
   {
     id: 1,
@@ -46,8 +48,18 @@ const projects = [
     image: SonicRingRun,
     title: "Sonic Infinite Runner Game",
     category: "games",
-    description: "The Sonic Infinite Runner Game is a high-speed, action-packed endless runner inspired by classic Sonic gameplay. In this game, players control Sonic as he races through various levels, avoiding obstacles, collecting rings, and defeating enemies while trying to achieve the highest possible score.",
+    description:
+      "The Sonic Infinite Runner Game is a high-speed, action-packed endless runner inspired by classic Sonic gameplay. In this game, players control Sonic as he races through various levels, avoiding obstacles, collecting rings, and defeating enemies while trying to achieve the highest possible score.",
     link: "https://sonic-infinite-runner-game.vercel.app/",
+  },
+  {
+    id: 6,
+    image: TypingSpeedApp,
+    title: "Typing Speed App",
+    category: "frontend",
+    description:
+      "This Typing Speed App is a responsive, user-friendly application designed to help users improve their typing skills while tracking their progress. Built using React.js for dynamic user interaction and Tailwind CSS for sleek and modern styling, this app offers a seamless experience across devices.",
+    link: "https://typing-speed-app-five.vercel.app/",
   },
   // {
   //   id: 6,
@@ -121,7 +133,7 @@ const Projects = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              View Project
+              Overview
             </a>
           </div>
         ))}

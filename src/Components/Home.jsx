@@ -1,6 +1,6 @@
 import React from "react";
 import mainImg from "../../public/Images/main_img.png";
-
+import { Button } from "../Components/ui/button";
 const Home = () => {
   return (
     <div className=" h-screen flex items-center">
@@ -76,9 +76,11 @@ const Home = () => {
             </a>
           </div>
 
-          <button className="bg-orange-400 text-white px-6 py-2 mt-4 rounded-md hover:bg-yellow-300 hover:text-black font-semibold font-mono">
-            Hire Me
-          </button>
+          <Button>Hire Me</Button>
+
+          {/* <button className="bg-orange-400 text-white px-6 py-2 mt-4 rounded-md hover:bg-yellow-300 hover:text-black font-semibold font-mono">
+            
+          </button> */}
         </div>
       </div>
     </div>

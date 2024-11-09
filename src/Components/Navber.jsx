@@ -2,10 +2,30 @@ import React, { useState } from "react";
 import logo from "../../public/Images/V-logo.png";
 import ThemeToggle from "./ThemeToggle";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+// import { NavigationMenu } from "./Components/ui/navigation-menu";
+// import {
+//   NavigationMenu,
+//   NavigationMenuContent,
+//   NavigationMenuIndicator,
+//   NavigationMenuItem,
+//   NavigationMenuLink,
+//   NavigationMenuList,
+//   NavigationMenuTrigger,
+//   NavigationMenuViewport,
+// } from "@/components/ui/navigation-menu"
 import Home from "./Home";
 import AboutMe from "./AboutMe";
 import Projects from "./Projects";
 import Contact from "./Contact";
+import {
+  Menubar,
+  MenubarContent,
+  MenubarItem,
+  MenubarMenu,
+  MenubarSeparator,
+  MenubarShortcut,
+  MenubarTrigger,
+} from "../Components/ui/menubar";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -54,7 +74,7 @@ const Navbar = () => {
             </div>
 
             {/* Hamburger Menu for Mobile */}
-            <div className="lg:hidden">
+            {/* <div className="lg:hidden">
               <button
                 onClick={() => setIsOpen(!isOpen)}
                 className="text-white focus:outline-none"
@@ -76,9 +96,34 @@ const Navbar = () => {
                   ></path>
                 </svg>
               </button>
-            </div>
+            </div> */}
 
-            {/* Menu Items */}
+            {/* MenuBar */}
+            <Menubar className="lg:hidden ">
+              <MenubarMenu>
+                <MenubarTrigger>
+                  <img
+                    width="25"
+                    height="25"
+                    src="https://img.icons8.com/ios-filled/50/menu--v6.png"
+                    alt="menu--v6"
+                  />
+                </MenubarTrigger>
+                <MenubarContent>
+                  <MenubarItem>Home</MenubarItem>
+                  <MenubarSeparator />
+                  <MenubarItem>About Me</MenubarItem>
+                  <MenubarSeparator />
+                  <MenubarItem>Services</MenubarItem>
+                  <MenubarSeparator />
+                  <MenubarItem>Projects</MenubarItem>
+                  <MenubarSeparator />
+                  <MenubarItem>Work Experiences</MenubarItem>
+                  <MenubarSeparator />
+                  <MenubarItem>Contact Us</MenubarItem>
+                </MenubarContent>
+              </MenubarMenu>
+            </Menubar>
             <div
               className={`${
                 isOpen ? "block" : "hidden"
