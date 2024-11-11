@@ -6,19 +6,19 @@ function WorkExperiences() {
     {
       id: 1,
       title: "Javascript / React JS",
-      duration: "Oct 2023 - Jun 2024",
+      duration: "Oct 2023 - Present",
       color: "bg-blue-400",
     },
     {
       id: 2,
       title: "Node JS / Express JS",
-      duration: "July 2024 - Pengrent",
+      duration: "July 2024 - Present",
       color: "bg-purple-400",
     },
     {
       id: 3,
       title: "MongoDB",
-      duration: "July 2024 - Pengrent",
+      duration: "July 2024 - Present",
       color: "bg-green-400",
     },
   ];
